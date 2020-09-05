@@ -10,8 +10,8 @@
 </head>
     
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Latitude</a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">Latitude</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -20,11 +20,11 @@
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Plots</a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Max Temperature</a>
                     <a class="dropdown-item" href="#">Humidity</a>
                     <a class="dropdown-item" href="#">Cloudiness</a>
                     <a class="dropdown-item" href="#">Wind Speed</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    
                   </div>
                 </li>
                 <li class="nav-item">
@@ -36,7 +36,10 @@
           </nav>
   
     <div class="container">
-      <div class="jumbotron">
+      <div class="row">
+        <div class="col-lg-7 col-md-12">
+          <div class="box">
+        </div>
         <h1 class="display-4">Summary: Latitude vs. X</h1>
         <p class="lead">This is placed inside a container</p>
         <hr class="my-4">
@@ -44,11 +47,19 @@
         <p>The purpose of this project was to analyze how weather changes as you closer to the equator</p>
       </div>
     </div>
+
+    <div class="col-lg-5 col-md-12">
+      <div class="box">
+        <h2 class="display-4">Visualizations</h2>
+    </div>
     <div class="container">
-      <div class="jumbotron">
+      <div class="row" style="padding-bottom: 30px;">
+        <div class="col-6">
+          <img class="panel" src="/assets/images/Fig1.png" alt="Humidity">
+        </div>
         <h1 class="display-4">Visualizations</h1>
         <hr class="my-4">
-        <img src="\assets\images\Fig1.png" alt="My test image">
+        
         <img src="\assets\images\Fig1.png" alt="My test image">
         <img src="\assets\images\Fig1.png" alt="My test image">
         <img src="\assets\images\Fig1.png" alt="My test image">
