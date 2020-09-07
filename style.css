@@ -37,7 +37,7 @@ background-color: white;
 .description-header {
 pading-top: 15px;
 padding-left: 5px;
-color: #38ab87;
+color: #0BADA6;
 font-size: 26px;
 font-weight: bold; 
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -45,8 +45,8 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 .description-image {
 float: left;
-width: 50%;
-height: 50%;
+width: 60%;
+height: 60%;
 }
 	
 .panels {
@@ -59,7 +59,7 @@ background-color: white;
 .panel-header {
 pading-top: 15px;
 padding-left: 5px;
-color: #38ab87;
+color: #0BADA6;
 font-size: 26px;
 font-weight: bold; 
 font-family: Georgia, 'Times New Roman', Times, serif;
