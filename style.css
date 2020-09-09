@@ -13,18 +13,21 @@ font-size: 15px;
 }
 
 .navbar{
-  max-height: 50px;
-  background-color: white;
-  font-size: 20px; 
+max-height: 40px;
+background-color: white;
+font-size: 14px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif; 
 }
 
 .navigation .navbar-brand{
-  color: white; 
-  margin-left: 30px; 
-  padding: inherit; 
-  font-weight: bold; 
-  background-color: #4AAAA5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+color: white; 
+margin-left: 30px;
+padding-right:10px;
+padding-left:10px; 
+font-weight: bold; 
+background-color: #4AAAA5;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .description {
@@ -72,20 +75,36 @@ background-color: white;
 width:90%;
 }
 
+.comparison-header {
+color: #4AAAA5;
+text-align: center;
+font-size: 20px;
+font-weight: bold; 
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .button{
 margin-right: 30px;
 }
 
-@media (max-width: 580px) {
-  .navbar li {
-    padding: 10px;
-  }
+@media (max-width: 700px) {
 
-  .navbar ul {
-    visibility: hidden;
-  }
+.navbar{
+background-color: #4AAAA5;
+padding-bottom: 45px;
+}
 
-  #nav-select {
-    visibility: visible;
-  }
+.navigation .navbar-brand{
+margin-left:0px;
+padding-right:10px;
+padding-left:0px; 
+}
+ 
+.navbar li {
+padding: 10px;
+}
+
+.navbar ul {
+visibility: hidden;
+}
 }
